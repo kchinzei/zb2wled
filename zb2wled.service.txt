@@ -1,0 +1,10 @@
+[Unit]
+Description = zigbee2wled daemon
+
+[Service]
+ExecStart = /opt/zb2wled/zb2wled.py -u (mqtt user) -p (mqtt user password)
+Restart = always
+Type = simple
+
+[Install]
+WantedBy = multi-user.target
