@@ -19,6 +19,8 @@ Support RGB and white with color temperature.
 This mini project is to control [WLED](https://kno.wled.ge) bulb from
 a Zigbee switch [IKEA E2002 'STYRBAR'](https://www.ikea.com/jp/en/p/styrbar-remote-control-smart-white-10488364/).
 
+![Styrbar](https://www.zigbee2mqtt.io/images/devices/E2001-E2002.png)
+
 ## Dependency
 
 - Python 3.9 or later
