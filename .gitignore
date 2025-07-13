@@ -17,5 +17,3 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
-zb2wled.service
