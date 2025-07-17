@@ -3,7 +3,7 @@ Description = zigbee2wled daemon
 After=network.target
 
 [Service]
-EnvironmentFile = ./.env
+EnvironmentFile = /opt/zb2wled/.env
 ExecStart = /opt/zb2wled/zb2wled.py -u ${MQTT_USER} -p ${MQTT_PASS}
 WorkingDirectory = /opt/zb2wled
 Restart=always
